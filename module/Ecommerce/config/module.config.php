@@ -63,7 +63,7 @@ return array(
             'application_entities' => array(
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'cache' => 'array',
-                'paths' => array(__DIR__ . '/../src/Principal/Model')
+                'paths' => array(__DIR__ . '/../src/Ecommerce/Model')
             ),
             'orm_default' => array(
                 'drivers' => array(
@@ -77,7 +77,7 @@ return array(
             'layout/layout' => __DIR__ . '/../view/layout/layout.phtml',
         ),
         'template_path_stack' => array(
-            'Principal' => __DIR__ . '/../view',
+            'Ecommerce' => __DIR__ . '/../view',
         ),
     ),
 );

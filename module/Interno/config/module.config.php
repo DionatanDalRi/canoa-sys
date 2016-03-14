@@ -9,6 +9,7 @@
 return array(
     'controllers' => array(
         'invokables' => array(
+            'Interno\Controller\Interno'  => 'Interno\Controller\InternoController',
         ),
 
     ),
