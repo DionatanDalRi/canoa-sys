@@ -14,6 +14,6 @@ class InternoController extends AbstractActionController
 {
     public function indexAction()
     {
-        die('ausdgahysdghyuasd');
+
     }
 }
